@@ -65,7 +65,7 @@ def login():
     except (KeyError, IOError):
         os.system('clear')
         print logo
-		print 60 * '\x1b[1;91m\xe2\x95\x90'
+	print 60 * '\x1b[1;91m\xe2\x95\x90'
         print 60 * '\x1b[1;91m\xe2\x95\x90'
         print '\x1b[1;97m               [ \x1b[1;97mBaturaja Security Art ]        '
         id = raw_input('\x1b[1;96m[$] \x1b[1;97mPlease Login First\x1b[0m\n\x1b[1;97mUsername \x1b[1;91m:\x1b[1;92m ')
